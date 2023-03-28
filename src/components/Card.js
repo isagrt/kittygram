@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 const PhotoCard = ({ imageSource }) => {
   const [likes, setLikes] = useState(0);
@@ -13,7 +15,7 @@ const PhotoCard = ({ imageSource }) => {
       <Image source={{ uri: imageSource }} style={styles.image} />
       <View style={styles.likesContainer}>
         <TouchableOpacity onPress={handleLikePress}>
-          <Text style={styles.likes}>❤️ {likes} curtidas</Text>
+          <Text style={styles.likes}> <Icon name="heart" size={20} color="#B30002" style={styles.icon} /> {likes} curtidas                                                                      </Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -44,9 +46,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
   },
   likes: {
-    fontSize: 16,
+    fontSize: 20,
     color: '#333',
-    marginLeft: 10,
+    marginLeft: 5,
   },
 });
 
