@@ -18,6 +18,7 @@ export default function App() {
         <PhotoCard imageSource="https://i.pinimg.com/originals/f7/1c/a6/f71ca62a6aeb0e7a2d3d495d89aa440d.jpg" />
         <PhotoCard imageSource="https://i.pinimg.com/736x/81/09/90/810990ccc3992f5eb6d6c74b29c4cfee.jpg" />
         <PhotoCard imageSource="https://i.redd.it/i4vhlaifuty21.jpg" />
+        <PhotoCard imageSource="https://i.shgcdn.com/236b97bf-2a2e-4ebf-a08d-cbca878ee674/-/format/auto/-/preview/3000x3000/-/quality/lighter/" />
         <Text>txt </Text>
         <Text>txt </Text>
         <Text>txt </Text>
