@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     shadowColor: '#8C031C',
     shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
+    shadowOpacity: 8,
     elevation: 8,
   },
   title: {
